@@ -115,19 +115,19 @@ class ProfileScreen extends StatelessWidget {
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    dividerBuilder(),
-                    sizedBoxBuilder(_height),
-                    singleTextBox(
-                      text: snapshot.data!.data()!['Name'].toString() ??
-                          'No data provided',
-                      height: _height,
-                    ),
-                    sizedBoxBuilder(_height),
-                    singleTextBox(
-                      text: snapshot.data!.data()!['Email'].toString() ??
-                          'No data provided',
-                      height: _height,
-                    ),
+                    //dividerBuilder(),
+                    //sizedBoxBuilder(_height),
+                    // singleTextBox(
+                    //   text: snapshot.data!.data()!['Name'].toString() ??
+                    //       'No data provided',
+                    //   height: _height,
+                    // ),
+                    // sizedBoxBuilder(_height),
+                    // singleTextBox(
+                    //   text: snapshot.data!.data()!['Email'].toString() ??
+                    //       'No data provided',
+                    //   height: _height,
+                    // ),
                     sizedBoxBuilder(_height),
                     singleTextBox(
                       text: snapshot.data!
